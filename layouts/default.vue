@@ -1,0 +1,36 @@
+<script setup lang="ts">
+
+</script>
+
+<template>
+  <div class="container mx-auto max-w-screen-md p-4 md:px-0">
+    <SiteHeader />
+    <slot />
+    <!-- <Footer /> -->
+  </div>
+</template>
+
+<style>
+html {
+  font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+  font-size: 16px;
+  word-spacing: calc(1rem / 16);
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+</style>
